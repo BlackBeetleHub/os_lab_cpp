@@ -1,6 +1,11 @@
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+#include "easylogging++.h"
+
+INITIALIZE_EASYLOGGINGPP
+
+int main(int argc, char** argv) {
+    START_EASYLOGGINGPP(argc, argv);
+    LOG(INFO) << " Hello ";
     return 0;
 }

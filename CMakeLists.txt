@@ -3,5 +3,12 @@ project(lab_os_1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES src/main.cpp src/timers/Timer.cpp src/timers/Timer.h src/timers/CommonTimer.cpp src/timers/CommonTimer.h)
+include_directories(lib/logging)
+
+file(GLOB SOURCE_H */**/*.h)
+
+file(GLOB SOURCE_CPP **/*.cpp **/**/*.cpp **/**/*.cc)
+
+set(SOURCE_FILES ${SOURCE_H} ${SOURCE_CPP})
+
 add_executable(lab_os_1 ${SOURCE_FILES})
