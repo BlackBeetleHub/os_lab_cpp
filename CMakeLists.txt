@@ -1,11 +1,12 @@
 cmake_minimum_required(VERSION 3.8)
 project(lab_os_1)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
 
 add_definitions(-DINITIALIZE_EASYLOGGINGPP)
 
 add_subdirectory(lib/googletest)
+include_directories(src)
 include_directories(lib/logging)
 include_directories(lib/googletest/googletest/include)
 
