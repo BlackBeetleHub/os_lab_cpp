@@ -8,6 +8,7 @@
 #include "timers/ClockTimer.h"
 #include "timers/ChronoTimer.h"
 #include "timers/RdtscTimer.h"
+#include "timers/OmpTimer.h"
 #include "algorithms/Sort.h"
 #include "easylogging++.h"
 
@@ -54,4 +55,9 @@ TEST_F(SpeedTest, ChronoTimerSort) {
 TEST_F(SpeedTest, RdtscTimerSort) {
     setAlgorithm(std::make_shared<Sort>(100000));
     setTimer(std::make_shared<RdtscTimer>());
+}
+
+TEST_F(SpeedTest, OmpTimerSort) {
+    setAlgorithm(std::make_shared<Sort>(100000));
+    setTimer(std::make_shared<OmpTimer>());
 }

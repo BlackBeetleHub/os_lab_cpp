@@ -7,12 +7,17 @@
 
 
 #include <omp.h>
+#include "Timer.h"
 
-class OmpTimer {
+class OmpTimer : public Timer {
+public:
+    void start() final;
+    void end() final;
+    std::string show() final;
 
+private:
+    double startTime;
+    double endTime;
 };
-void ddg(){
-    omp_get_wtime
-}
 
 #endif //LAB_OS_1_OMPTIMER_H

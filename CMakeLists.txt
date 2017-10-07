@@ -19,7 +19,7 @@ set(SOURCE_FILES_EXE ${SOURCE_FILES} src/main.cpp)
 
 add_executable(lab_os_1 ${SOURCE_FILES_EXE})
 
-add_executable(test_lab_os_1 ${SOURCE_FILES})
+add_executable(test_lab_os_1 ${SOURCE_FILES} )
 
-target_link_libraries(lab_os_1 gtest gtest_main)
-target_link_libraries(test_lab_os_1 gtest gtest_main)
+target_link_libraries(lab_os_1 gtest gtest_main -fopenmp)
+target_link_libraries(test_lab_os_1 gtest gtest_main -fopenmp)
