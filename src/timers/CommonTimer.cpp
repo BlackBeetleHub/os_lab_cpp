@@ -4,12 +4,14 @@
 
 #include "CommonTimer.h"
 
-int CommonTimer::start() {
-    time_t t = time(0);
-    return t;
+void CommonTimer::start() {
+    startTime = time(0);
 }
 
-int CommonTimer::end() {
-    time_t t = time(0);
-    return t;
+void CommonTimer::end() {
+    endTime = time(0);
+}
+
+std::string CommonTimer::show() {
+    return std::to_string(endTime - startTime) + " seconds";
 }

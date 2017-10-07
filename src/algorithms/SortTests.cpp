@@ -6,6 +6,8 @@
 #include <memory>
 #include "timers/CommonTimer.h"
 #include "timers/ClockTimer.h"
+#include "timers/ChronoTimer.h"
+#include "timers/RdtscTimer.h"
 #include "algorithms/Sort.h"
 #include "easylogging++.h"
 
@@ -24,10 +26,10 @@ public:
 
     virtual void TearDown() {
         LOG(INFO) << "Start testing...";
-        time_t start = timer->start();
+        timer->start();
         algorithm->execute();
-        time_t end =  timer->end();
-        LOG(INFO) << "Time: " << end - start;
+        timer->end();
+        LOG(INFO) << "Time: " << timer->show();
     }
 
     std::shared_ptr<Algorithm> algorithm;
@@ -42,4 +44,14 @@ TEST_F(SpeedTest, ClockTimerSort) {
 TEST_F(SpeedTest, CommonTimerSort) {
     setAlgorithm(std::make_shared<Sort>(100000));
     setTimer(std::make_shared<CommonTimer>());
+}
+
+TEST_F(SpeedTest, ChronoTimerSort) {
+    setAlgorithm(std::make_shared<Sort>(100000));
+    setTimer(std::make_shared<ChronoTimer>());
+}
+
+TEST_F(SpeedTest, RdtscTimerSort) {
+    setAlgorithm(std::make_shared<Sort>(100000));
+    setTimer(std::make_shared<RdtscTimer>());
 }

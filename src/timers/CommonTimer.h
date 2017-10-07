@@ -11,8 +11,13 @@
 
 class CommonTimer : public Timer {
 public:
-    int start() final;
-    int end() final;
+    void start() final;
+    void end() final;
+    std::string show() final;
+
+private:
+    time_t startTime;
+    time_t endTime;
 };
 
 

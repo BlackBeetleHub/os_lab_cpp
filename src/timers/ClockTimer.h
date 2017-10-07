@@ -10,8 +10,13 @@
 
 class ClockTimer : public Timer {
 public:
-    int start() final;
-    int end() final;
+    void start() final;
+    void end() final;
+    std::string show() final;
+
+private:
+    clock_t startTime;
+    clock_t endTime;
 };
 
 

@@ -5,12 +5,14 @@
 #include <ctime>
 #include "ClockTimer.h"
 
-int ClockTimer::start() {
-    clock_t c = clock();
-    return c;
+void ClockTimer::start() {
+    startTime = clock();
 }
 
-int ClockTimer::end() {
-    clock_t c = clock();
-    return c;
+void ClockTimer::end() {
+    endTime = clock();
+}
+
+std::string ClockTimer::show() {
+    return std::to_string(endTime - startTime) + " microseconds";
 }
