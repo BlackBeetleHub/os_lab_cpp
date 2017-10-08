@@ -6,6 +6,7 @@
 #define LAB_OS_1_TIMER_H
 
 #include <string>
+#include <easylogging++.h>
 
 class Timer {
 public:
@@ -13,6 +14,5 @@ public:
     virtual void end() = 0;
     virtual std::string show() = 0;
 };
-
 
 #endif //LAB_OS_1_TIMER_H

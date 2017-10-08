@@ -3,6 +3,19 @@ project(lab_os_1)
 
 set(CMAKE_CXX_STANDARD 11)
 
+#For Debug
+set(CMAKE_C_FLAGS_DEBUG "-g -O0")
+set(CMAKE_CXX_FLAGS_DEBUG "-g -O0 -pthread")
+#For Release
+set(CMAKE_C_FLAGS_RELEASE "-g -O2")
+set(CMAKE_CXX_FLAGS_RELEASE "-g -O2 -pthread")
+#For MaxOptz
+set(CMAKE_C_FLAGS_MAXOPTZ "-g -O3")
+set(CMAKE_CXX_FLAGS_MAXOPTZ "-g -O3 -pthread")
+#For Fast
+set(CMAKE_C_FLAGS_FAST "-g -Ofast")
+set(CMAKE_CXX_FLAGS_FAST "-g -Ofast -pthread")
+
 add_definitions(-DINITIALIZE_EASYLOGGINGPP)
 
 add_subdirectory(lib/googletest)
