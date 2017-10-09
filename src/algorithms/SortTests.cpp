@@ -40,12 +40,12 @@ public:
 void getSystemTimeFromAddress(){
     time_t time = (time_t)0x7FFFFFFF;
     tm* systemTime = gmtime(&time);
-    LOG(INFO) << systemTime->tm_sec;
-    LOG(INFO) << systemTime->tm_min;
-    LOG(INFO) << systemTime->tm_hour;
-    LOG(INFO) << systemTime->tm_mday;
-    LOG(INFO) << systemTime->tm_mon;
-    LOG(INFO) << systemTime->tm_year;
+    LOG(INFO) << systemTime->tm_sec << " sec";
+    LOG(INFO) << systemTime->tm_min << " min";
+    LOG(INFO) << systemTime->tm_hour << " hour";
+    LOG(INFO) << systemTime->tm_mday << " day";
+    LOG(INFO) << systemTime->tm_mon << " month";
+    LOG(INFO) << systemTime->tm_year << " year";
 }
 
 TEST(TimeTest, GetSystemTime){
