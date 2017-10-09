@@ -19,5 +19,12 @@ private:
     size_t size;
 };
 
+int sievePositives(int* unsievedArray, size_t length);
+
+void bubbleSort(int* array, size_t length);
+
+bool isSorted(int* array, size_t length);
+
+void initRandomArray(int* array, size_t length);
 
 #endif //LAB_OS_1_SORT_H
