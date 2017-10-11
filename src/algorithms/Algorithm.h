@@ -9,6 +9,7 @@
 class Algorithm {
 public:
     virtual void execute() = 0;
+    virtual bool check() = 0;
 private:
 
 };

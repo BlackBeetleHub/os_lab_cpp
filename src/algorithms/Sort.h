@@ -14,6 +14,7 @@ public:
     Sort(size_t size);
     ~Sort();
     void execute() final;
+    bool check() final;
 private:
     int *array;
     size_t size;

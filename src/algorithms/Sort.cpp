@@ -6,28 +6,22 @@
 #include "Sort.h"
 
 void Sort::execute() {
-    int i, key, j;
-    for (i = 1; i < size; i++) {
-        key = array[i];
-        j = i - 1;
-
-        while (j >= 0 && array[j] > key) {
-            array[j + 1] = array[j];
-            j = j - 1;
-        }
-        array[j + 1] = key;
-    }
+    bubbleSort(array, size);
 }
 
 Sort::Sort(size_t size) : size(size) {
     array = new int[size];
     for (int i = 0; i < size; i++) {
-        array[i] = random();
+        array[i] = random() % size;
     }
 }
 
 Sort::~Sort() {
     delete[] array;
+}
+
+bool Sort::check() {
+    return isSorted(array, size);
 }
 
 int sievePositives(int *unsievedArray, size_t length) {
@@ -40,27 +34,26 @@ int sievePositives(int *unsievedArray, size_t length) {
 }
 
 void bubbleSort(int *array, size_t length) {
-    int temp;
-    for(int i = 0; i < length; i++) {
-        for (int j = 0; j < length - (i+1); j++) {
-            if (array[i] < array[j]){
-                temp = array[i];
-                array[i] = array[j];
-                array[j] = temp;
-            }
-        }
-    }
+    for (int i = 0; i < length - 1; i++)
+        for (int j = 0; j < length - i - 1; j++)
+            if (array[j] > array[j + 1])
+                std::swap(array[j], array[j + 1]);
 }
 
 bool isSorted(int *array, size_t length) {
-    for (int i = 0; i < length-1; i++) {
-        if(array[i] > array[i+1]) return false;
+    for (int i = 0; i < length - 1; i++) {
+        if (array[i] > array[i + 1]) return false;
     }
     return true;
 }
 
 void initRandomArray(int *array, size_t length) {
-    for(int i = 0; i < length; i++) {
-        array[i] = rand() % length;
+    int tmp = 0;
+    for (int i = 0; i < length; i++) {
+        tmp = rand() % length;
+        if(tmp % 2 == 0) {
+            tmp *= -1;
+        }
+        array[i] = tmp;
     }
 }
