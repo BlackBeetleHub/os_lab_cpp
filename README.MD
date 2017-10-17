@@ -10,7 +10,9 @@ Have fun, my open source nure-student community.
 We using easylogging++ and Google Test Framework. 
 
 Build system: CMake
+
 IDE configuration: Clion
+
 Compile: gcc, g++.
 
 
