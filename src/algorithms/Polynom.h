@@ -11,79 +11,36 @@
 #include "Algorithm.h"
 #include <boost/algorithm/string.hpp>
 
-class Veriable {
-public:
-    Veriable(std::string name, int exponent) : name(name), exponent(exponent) {
-    }
+#include <algorithm>
+#include <cstdio>
+#include <ctime>
+#include <vector>
+#include <complex>
+#include <easylogging++.h>
 
-    int exponent;
-    std::string name;
-
-    std::string toString() {
-        std::string res = name;
-        if(exponent != 1){
-            res += "^" +std::to_string(exponent);
-        }
-        return res;
-    }
-};
-
-
-class Monomial {
-
-public:
-    Monomial(int c, std::string str) : c(c) {
-        for (int i = 0; i < str.size(); i++) {
-
-            int ex = 1;
-
-            if ((i + 2) >= str.size()) {
-                veriables.push_back(Veriable(&str[i], 1));
-                return;
-            }
-
-            if (isalpha(str[i])) {
-                if (isdigit(str[i + 2])) {
-                    veriables.push_back(Veriable(&str[i], atoi(&str[i + 2])));
-                    i += 2;
-                }else{
-                    veriables.push_back(Veriable(&str[i], 1));
-                }
-
-            }
-
-        }
-    }
-
-    std::string toString() {
-        std::string res = std::to_string(c);
-        for (auto v : veriables) {
-            res += v.toString();
-        }
-        return res;
-    }
-
-    int c;
-    std::vector<Veriable> veriables;
-};
-
+using namespace std;
 
 class Polynom {
+    typedef vector<double>* confs;
 public:
-    void addMonomial(Monomial monomial) {
-        monomials.push_back(monomial);
+    Polynom(vector<double> &c);
+    double operator[](int index) {
+        return (*c)[index];
     }
 
-    std::string toString() {
-        std::string res;
-        for (auto item : monomials) {
-            res += item.toString() + " ";
+    size_t getLength() const {
+        return c->size();
+    }
+    ~Polynom();
+    static Polynom multiple(Polynom& a, Polynom& b);
+    void show(){
+        for (double item : *c){
+            LOG(INFO) << item;
         }
-        return res;
     }
 
 private:
-    std::vector<Monomial> monomials;
+    confs c;
 };
 
 #endif //LAB_OS_1_POLYNOM_H

@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574c96da-7ebd-4abd-acd0-e57654649799" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/Polynom.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/Polynom.h" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/algorithms/Matrix.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/algorithms/Matrix.h" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithms/Polynom.cpp" afterPath="$PROJECT_DIR$/src/algorithms/Polynom.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithms/Polynom.h" afterPath="$PROJECT_DIR$/src/algorithms/Polynom.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithms/SortTests.cpp" afterPath="$PROJECT_DIR$/src/algorithms/SortTests.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortTests.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SortTests.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/SortTests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="1661">
+              <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
               <folding>
                 <element signature="e#41#65#0" expanded="true" />
               </folding>
@@ -63,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Polynom.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Polynom.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Polynom.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="833">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="e#96#113#0" expanded="true" />
               </folding>
@@ -75,21 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="finder.hpp" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/boost/algorithm/string/detail/finder.hpp">
+      <file leaf-file-name="Polynom.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/Polynom.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18464">
-              <caret line="577" column="44" lean-forward="false" selection-start-line="577" selection-start-column="44" selection-end-line="577" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic_string.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/5/bits/basic_string.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156320">
-              <caret line="4885" column="0" lean-forward="false" selection-start-line="4885" selection-start-column="0" selection-end-line="4885" selection-end-column="0" />
+            <state relative-caret-position="768">
+              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -131,8 +119,9 @@
         <option value="$PROJECT_DIR$/src/algorithms/Algorithm.h" />
         <option value="$PROJECT_DIR$/src/algorithms/Sort.h" />
         <option value="$PROJECT_DIR$/src/algorithms/Sort.cpp" />
-        <option value="$PROJECT_DIR$/src/algorithms/SortTests.cpp" />
+        <option value="$PROJECT_DIR$/src/algorithms/Polynom.cpp" />
         <option value="$PROJECT_DIR$/src/algorithms/Polynom.h" />
+        <option value="$PROJECT_DIR$/src/algorithms/SortTests.cpp" />
       </list>
     </option>
   </component>
@@ -249,7 +238,7 @@
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="MonomialTest.MonomialTestVeriables" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="MonomialTest" TEST_METHOD="MonomialTestVeriables" TEST_MODE="SUITE_TEST">
+    <configuration name="MonomialTest.MonomialTestVeriables" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="VeriableTest" TEST_METHOD="VeriableTestToString" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
     <configuration name="PolynomTest.PolynomTestVeriables" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="PolynomTest" TEST_METHOD="PolynomTestVeriables" TEST_MODE="SUITE_TEST">
@@ -335,7 +324,8 @@
       <workItem from="1507799064290" duration="22000" />
       <workItem from="1508064151972" duration="9934000" />
       <workItem from="1508147111761" duration="232000" />
-      <workItem from="1509277710806" duration="611000" />
+      <workItem from="1509277710806" duration="2931000" />
+      <workItem from="1509291174104" duration="3707000" />
     </task>
     <task id="LOCAL-00001" summary="add google test framework and easylogging lib">
       <created>1507326408577</created>
@@ -393,22 +383,17 @@
       <option name="project" value="LOCAL" />
       <updated>1507750877048</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Delete first lab and rewrite second">
+      <created>1509278705089</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1509278705089</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MonomialTest_MonomialTestVeriables - 2017.10.15 at 17h 28m 47s.xml">
-      <configuration name="MonomialTest.MonomialTestVeriables" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="MonomialTest_MonomialTestVeriables - 2017.10.15 at 17h 29m 34s.xml">
-      <configuration name="MonomialTest.MonomialTestVeriables" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="MonomialTest_MonomialTestVeriables - 2017.10.15 at 17h 29m 58s.xml">
-      <configuration name="MonomialTest.MonomialTestVeriables" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="MonomialTest_MonomialTestVeriables - 2017.10.15 at 17h 32m 35s.xml">
-      <configuration name="MonomialTest.MonomialTestVeriables" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="MonomialTest_MonomialTestVeriables - 2017.10.15 at 17h 34m 17s.xml">
       <configuration name="MonomialTest.MonomialTestVeriables" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
@@ -427,15 +412,28 @@
     <history-entry file="MonomialTest_MonomialTestVeriables - 2017.10.15 at 17h 49m 59s.xml">
       <configuration name="MonomialTest.MonomialTestVeriables" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="MonomialTest_MonomialTestVeriables - 2017.10.29 at 17h 36m 03s.xml">
+      <configuration name="MonomialTest.MonomialTestVeriables" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MonomialTest_MonomialTestVeriables - 2017.10.29 at 18h 33m 42s.xml">
+      <configuration name="MonomialTest.MonomialTestVeriables" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MonomialTest_MonomialTestVeriables - 2017.10.29 at 18h 34m 31s.xml">
+      <configuration name="MonomialTest.MonomialTestVeriables" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MonomialTest_MonomialTestVeriables - 2017.10.29 at 18h 36m 05s.xml">
+      <configuration name="MonomialTest.MonomialTestVeriables" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68669000" />
+    <option name="totallyTimeSpent" value="74696000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="704" y="-7" width="3700" height="2154" extended-state="6" />
+    <frame x="141" y="7" width="3700" height="2154" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29270315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2957435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43672198" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29719916" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37966806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -446,7 +444,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42064315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -477,7 +474,8 @@
     <MESSAGE value="done" />
     <MESSAGE value="add more information for time showing" />
     <MESSAGE value="Define function for second lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Define function for second lab" />
+    <MESSAGE value="Delete first lab and rewrite second" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete first lab and rewrite second" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -781,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/Polynom.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/5/bits/basic_string.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156320">
@@ -804,16 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/SortTests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-          <folding>
-            <element signature="e#41#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -822,12 +803,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/Polynom.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Polynom.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="833">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="e#96#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/SortTests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1661">
+          <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="e#41#65#0" expanded="true" />
           </folding>
         </state>
       </provider>

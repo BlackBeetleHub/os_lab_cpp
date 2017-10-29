@@ -16,15 +16,15 @@
 class SpeedTest : public ::testing::Test {
 public:
 
-    void setAlgorithm(std::shared_ptr<Algorithm> algorithm){
+    void setAlgorithm(std::shared_ptr<Algorithm> algorithm) {
         this->algorithm = algorithm;
     }
 
-    void setTimer(std::shared_ptr<Timer> timer){
+    void setTimer(std::shared_ptr<Timer> timer) {
         this->timer = timer;
     }
 
-    virtual void SetUp() { }
+    virtual void SetUp() {}
 
     virtual void TearDown() {
         LOG(INFO) << "Start testing...";
@@ -46,32 +46,19 @@ TEST_F(SpeedTest, OmpTimerSort) {
 
 TEST(PossitiveCountTest, PossitiveCount) {
     const int size = 1000;
-    int* array = new int[size];
+    int *array = new int[size];
     initRandomArray(array, size);
     LOG(INFO) << sievePositives(array, size);
 }
 
 
 TEST(VeriableTest, VeriableTestToString) {
-    Veriable veriable("s", 4);
-    ASSERT_TRUE(veriable.toString() == "s^4");
+    vector<double> c1 = {0, 1, 2};
+    vector<double> c2 = {0, 0, 3};
+
+    Polynom p1(c1);
+    Polynom p2(c2);
+    LOG(INFO) << p1[1];
+    auto result = Polynom::multiple(p1, p2);
+    result.show();
 }
-
-TEST(MonomialTest, MonomialTestVeriables) {
-    Monomial polynom(-4 ,"abs^4g^5");
-    LOG(INFO) << polynom.toString();
-    ASSERT_TRUE(polynom.toString() == "-4abs^4g^5");
-}
-
-TEST(PolynomTest, PolynomTestVeriables) {
-    Monomial polynom1(1 ,"abas^4s^1");
-    Monomial polynom2(2 ,"afdg^4u^4");
-    Monomial polynom3(6 ,"ahgs^4c^2");
-    Polynom polynom;
-    polynom.addMonomial(polynom1);
-    polynom.addMonomial(polynom2);
-    polynom.addMonomial(polynom3);
-
-    LOG(INFO) << polynom.toString();
-}
-
