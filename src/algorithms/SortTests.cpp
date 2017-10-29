@@ -10,7 +10,8 @@
 #include "timers/RdtscTimer.h"
 #include "timers/OmpTimer.h"
 #include "algorithms/Sort.h"
-#include "algorithms/Matrix.h"
+#include "Polynom.h"
+
 
 class SpeedTest : public ::testing::Test {
 public:
@@ -49,3 +50,28 @@ TEST(PossitiveCountTest, PossitiveCount) {
     initRandomArray(array, size);
     LOG(INFO) << sievePositives(array, size);
 }
+
+
+TEST(VeriableTest, VeriableTestToString) {
+    Veriable veriable("s", 4);
+    ASSERT_TRUE(veriable.toString() == "s^4");
+}
+
+TEST(MonomialTest, MonomialTestVeriables) {
+    Monomial polynom(-4 ,"abs^4g^5");
+    LOG(INFO) << polynom.toString();
+    ASSERT_TRUE(polynom.toString() == "-4abs^4g^5");
+}
+
+TEST(PolynomTest, PolynomTestVeriables) {
+    Monomial polynom1(1 ,"abas^4s^1");
+    Monomial polynom2(2 ,"afdg^4u^4");
+    Monomial polynom3(6 ,"ahgs^4c^2");
+    Polynom polynom;
+    polynom.addMonomial(polynom1);
+    polynom.addMonomial(polynom2);
+    polynom.addMonomial(polynom3);
+
+    LOG(INFO) << polynom.toString();
+}
+
