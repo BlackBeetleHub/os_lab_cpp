@@ -20,10 +20,13 @@
 
 using namespace std;
 
+typedef complex<double> ci;
+typedef vector<double> *poly;
+
 class Polynom {
-    typedef vector<double>* confs;
 public:
     Polynom(vector<double> &c);
+
     double operator[](int index) {
         return (*c)[index];
     }
@@ -31,16 +34,23 @@ public:
     size_t getLength() const {
         return c->size();
     }
+
     ~Polynom();
-    static Polynom multiple(Polynom& a, Polynom& b);
-    void show(){
-        for (double item : *c){
+
+    static Polynom multiple(Polynom &a, Polynom &b);
+
+    void show() {
+        for (double item : *c) {
             LOG(INFO) << item;
         }
     }
 
 private:
-    confs c;
+    poly c;
 };
+
+vector<ci> FastTransform(const vector<ci> &as);
+
+vector<ci> RevFastTransform(const vector<ci> &as);
 
 #endif //LAB_OS_1_POLYNOM_H

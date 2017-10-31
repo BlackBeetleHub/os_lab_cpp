@@ -27,10 +27,9 @@ bool Sort::check() {
 int sievePositives(int *unsievedArray, size_t length) {
     int count = 0;
     for (int i = 0; i < length; i++) {
-        if (unsievedArray[i] > 0) count++;
+        count += unsievedArray[i] >> 31;
     }
-
-    return count;
+    return static_cast<int>(length + count);
 }
 
 void bubbleSort(int *array, size_t length) {
@@ -50,10 +49,8 @@ bool isSorted(int *array, size_t length) {
 void initRandomArray(int *array, size_t length) {
     int tmp = 0;
     for (int i = 0; i < length; i++) {
-        tmp = rand() % length;
-        if(tmp % 2 == 0) {
-            tmp *= -1;
-        }
+        tmp = rand() % 2*length;
+        tmp -= length;
         array[i] = tmp;
     }
 }
