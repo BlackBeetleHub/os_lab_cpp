@@ -14,6 +14,3 @@ TEST_F(Test, OmpTimerSort) {
     setCommands([](){std::cout<<"hello"<<std::endl;});
     setTimer(std::make_shared<OmpTimer>());
 }
-
-
-
