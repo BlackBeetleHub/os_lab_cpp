@@ -11,6 +11,7 @@ class SystemInfo {
 public:
     SystemInfo();
     static std::string GetProcessorTypeName();
+    static bool isSupportSSE();
 };
 
 

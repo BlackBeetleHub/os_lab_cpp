@@ -18,3 +18,9 @@ TEST(SystemInformationTests, GetTypeProcessorTest){
     ASSERT_TRUE(expectTypeName == actualTypeName);
     LOG(INFO) << actualTypeName;
 }
+TEST(SystemInformationTests, IsSupportSSE){
+
+    bool res = SystemInfo::isSupportSSE();
+    LOG(INFO) << res;
+}
+
