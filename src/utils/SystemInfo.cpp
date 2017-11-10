@@ -105,7 +105,7 @@ bool SystemInfo::isSupportSSE() {
     std::cout<< ((arr[3] & (1 << 0)) == (1 << 0)) << std::endl; // sse3
     std::cout<< ((arr[3] & (1 << 9)) == (1 << 9)) << std::endl; // ssse3
 
-
+    std::cout << ((arr[2] & (1 << 27)) == (1 << 27)) << std::endl; //AVX
     //
 
 
