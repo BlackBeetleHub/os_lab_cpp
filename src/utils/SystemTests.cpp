@@ -18,9 +18,16 @@ TEST(SystemInformationTests, GetTypeProcessorTest){
     ASSERT_TRUE(expectTypeName == actualTypeName);
     LOG(INFO) << actualTypeName;
 }
-TEST(SystemInformationTests, IsSupportSSE){
 
+TEST(SystemInformationTests, IsSupportSSE){
     bool res = SystemInfo::isSupportSSE();
     LOG(INFO) << res;
 }
+
+TEST(SystemInformationTests, CountLogicCpu){
+    auto count = SystemInfo::getCountProcessors();
+    ASSERT_TRUE(count == 16);
+    LOG(INFO) << count;
+}
+
 

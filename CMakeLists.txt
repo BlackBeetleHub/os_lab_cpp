@@ -4,17 +4,17 @@ project(lab_os_1)
 set(CMAKE_CXX_STANDARD 11)
 
 #For Debug
-set(CMAKE_C_FLAGS_DEBUG "-g -O0")
-set(CMAKE_CXX_FLAGS_DEBUG "-g -O0 -pthread")
+set(CMAKE_C_FLAGS_DEBUG "-g -O0 -fopenmp")
+set(CMAKE_CXX_FLAGS_DEBUG "-g -O0 -pthread -fopenmp")
 #For Release
-set(CMAKE_C_FLAGS_RELEASE "-g -O2")
-set(CMAKE_CXX_FLAGS_RELEASE "-g -O2 -pthread")
+set(CMAKE_C_FLAGS_RELEASE "-g -O2 -fopenmp")
+set(CMAKE_CXX_FLAGS_RELEASE "-g -O2 -pthread -fopenmp")
 #For MaxOptz
-set(CMAKE_C_FLAGS_MAXOPTZ "-g -O3")
-set(CMAKE_CXX_FLAGS_MAXOPTZ "-g -O3 -pthread")
+set(CMAKE_C_FLAGS_MAXOPTZ "-g -O3 -fopenmp")
+set(CMAKE_CXX_FLAGS_MAXOPTZ "-g -O3 -pthread -fopenmp")
 #For Fast
-set(CMAKE_C_FLAGS_FAST "-g -Ofast")
-set(CMAKE_CXX_FLAGS_FAST "-g -Ofast -pthread")
+set(CMAKE_C_FLAGS_FAST "-g -Ofast -fopenmp")
+set(CMAKE_CXX_FLAGS_FAST "-g -Ofast -pthread -fopenmp")
 
 add_definitions(-DINITIALIZE_EASYLOGGINGPP)
 

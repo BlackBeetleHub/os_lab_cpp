@@ -7,11 +7,26 @@
 
 #include <string>
 
+struct InfoStruct {
+    InfoStruct(unsigned number){
+        __get_cpuid(number, &eax, &ebx, &ecx, &edx);
+    }
+    unsigned eax;
+    unsigned ebx;
+    unsigned edx;
+    unsigned ecx;
+};
+
 class SystemInfo {
 public:
     SystemInfo();
-    static std::string GetProcessorTypeName();
     static bool isSupportSSE();
+    static unsigned getCountProcessors();
+    static std::string GetProcessorTypeName();
+
+private:
+    static InfoStruct infoName;
+    static InfoStruct infoCPU;
 };
 
 

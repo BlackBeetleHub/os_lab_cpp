@@ -7,20 +7,22 @@
 #include <iostream>
 #include "SystemInfo.h"
 
+InfoStruct SystemInfo::infoName = InfoStruct(0);
+InfoStruct SystemInfo::infoCPU = InfoStruct(1);
+
 SystemInfo::SystemInfo() {
 
 }
 
 std::string SystemInfo::GetProcessorTypeName() {
-    unsigned arr[4];
     auto* str = new char[13];
     str[12] = '\0';
-    __get_cpuid(0, &arr[0], &arr[1], &arr[2], &arr[3]);
-    memcpy(str, arr + 1, 4);
-    memcpy(str + 4, arr + 3, 4);
-    memcpy(str + 8, arr + 2, 4);
+    memcpy(str, &infoName.ebx, 4);
+    memcpy(str + 4,&infoName.edx, 4);
+    memcpy(str + 8, &infoName.ecx, 4);
     return std::string(str);
 }
+
 
 /*
  *
@@ -93,6 +95,7 @@ bool SystemInfo::isSupportSSE() {
     auto* str = new char[13];
     std::cout<< (1 << 1) << std::endl;
     __get_cpuid(1, &arr[0], &arr[1], &arr[2], &arr[3]);
+    __get_cpuid(1, &arr[0], &arr[1], &arr[2], &arr[3]);
     // about sse, sse2, sse4.1, sse4.2
     // warning: I have not sse5 and sse4a :(
     std::cout<< ((arr[3] & (1 << 25)) == (1 << 25)) << std::endl; // sse
@@ -111,4 +114,8 @@ bool SystemInfo::isSupportSSE() {
 
     //std::cout<< (arr[2] & 1 << 0) << std::endl;
     return true;
+}
+
+unsigned SystemInfo::getCountProcessors() {
+    return (infoCPU.ebx >> 16) & 0xff;
 }
