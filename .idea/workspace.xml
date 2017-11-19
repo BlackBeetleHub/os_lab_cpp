@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574c96da-7ebd-4abd-acd0-e57654649799" name="Default" comment="Add class Polynom and add multiply polynoms">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/CustomArray.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/CustomArray.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithms/CustomArray.h" afterPath="$PROJECT_DIR$/src/algorithms/CustomArray.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithms/SortTests.cpp" afterPath="$PROJECT_DIR$/src/algorithms/SortTests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/SystemInfo.cpp" afterPath="$PROJECT_DIR$/src/utils/SystemInfo.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -43,32 +41,47 @@
       <file leaf-file-name="SortTests.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/SortTests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="505">
+              <caret line="160" column="21" lean-forward="false" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
               <folding>
-                <element signature="e#41#63#0" expanded="true" />
+                <element signature="e#41#72#0" expanded="true" />
+                <element signature="e#305#329#0" expanded="true" />
+                <element signature="e#1441#1453#0" expanded="true" />
+                <element signature="e#2722#2734#0" expanded="true" />
+                <element signature="e#2933#2945#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test.cpp">
+      <file leaf-file-name="basic_string.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/5/bits/basic_string.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="316">
+              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test.h">
+      <file leaf-file-name="iostream" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/5/iostream">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="540">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xopintrin.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/xopintrin.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="289" column="0" lean-forward="false" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
               <folding>
-                <element signature="e#91#112#0" expanded="true" />
+                <marker date="1505339210000" expanded="false" signature="8459:9265" ph="..." />
+                <marker date="1505339210000" expanded="false" signature="26487:27623" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,54 +112,14 @@
       <file leaf-file-name="CustomArray.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/CustomArray.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+            <state relative-caret-position="-1">
+              <caret line="139" column="22" lean-forward="true" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
               <folding>
                 <element signature="e#104#122#0" expanded="true" />
-                <element signature="e#168#180#0" expanded="true" />
+                <element signature="e#224#236#0" expanded="true" />
+                <element signature="e#882#894#0" expanded="true" />
+                <element signature="e#2567#2579#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemInfo.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/SystemInfo.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemTests.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/SystemTests.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-              <folding>
-                <element signature="e#41#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Algorithm.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/Algorithm.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Logging.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/Logging.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -156,6 +129,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>LoggingFlag</find>
+      <find>__vector_size__ (</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,10 +183,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="141" />
-    <option name="y" value="7" />
-    <option name="width" value="3700" />
-    <option name="height" value="2154" />
+    <option name="x" value="280" />
+    <option name="y" value="391" />
+    <option name="width" value="3698" />
+    <option name="height" value="2118" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -277,6 +251,12 @@
               <item name="lab_os_1" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="lab_os_1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab_os_1" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="lab_os_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="timers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,11 +297,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.Test.OmpTimerSort1">
+  <component name="RunManager" selected="Google Test.MoveTests.CommonMove">
     <configuration name="All in VeriableTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="MultiplePolyTest" TEST_METHOD="SimpleVersion" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="lab_os_1" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="MoveTests.CommonMove" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="MoveTests" TEST_METHOD="CommonMove" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="MoveTests.SIMDMove" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="MoveTests" TEST_METHOD="SIMDMove" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
     <configuration name="MultiplePolyTestFaster" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="MultiplePolyTest" TEST_METHOD="Faster" TEST_MODE="SUITE_TEST">
@@ -333,22 +319,16 @@
     <configuration name="PossitiveCountTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="PossitiveCountTest" TEST_METHOD="PossitiveCount" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="SimpleTest.SystemInfoTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="SimpleTest" TEST_METHOD="SystemInfoTest" TEST_MODE="SUITE_TEST">
-      <envs />
-    </configuration>
-    <configuration name="SimpleTest.SystemInfoTestFromPractic" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="SimpleTest" TEST_METHOD="SystemInfoTestFromPractic" TEST_MODE="SUITE_TEST">
-      <envs />
-    </configuration>
     <configuration name="SortTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="SortTests" TEST_METHOD="BubbleSortTest" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="SystemInformationTests.GetTypeProcessorTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="SystemInformationTests" TEST_METHOD="GetTypeProcessorTest" TEST_MODE="SUITE_TEST">
+    <configuration name="SqrtTests.CommonWithDouble" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="SqrtTests" TEST_METHOD="CommonWithDouble" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="SystemInformationTests.IsSupportSSE" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="SystemInformationTests" TEST_METHOD="IsSupportSSE" TEST_MODE="SUITE_TEST">
+    <configuration name="SqrtTests.SIMDSqrtDouble" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="SqrtTests" TEST_METHOD="SIMDSqrtDouble" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="Test.OmpTimerSort1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="Test" TEST_METHOD="OmpTimerSort1" TEST_MODE="SUITE_TEST">
+    <configuration name="SqrtTests.SIMDSqrtFloat" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="SqrtTests" TEST_METHOD="SIMDSqrtFloat" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
     <configuration name="VeriableTest.ForTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="lab_os_1" TEST_CLASS="VeriableTest" TEST_METHOD="ForTest" TEST_MODE="SUITE_TEST">
@@ -390,19 +370,19 @@
       <item index="11" class="java.lang.String" itemvalue="Google Test.adpt" />
       <item index="12" class="java.lang.String" itemvalue="Google Test.MultiplePolyTestFaster" />
       <item index="13" class="java.lang.String" itemvalue="Google Test.VeriableTest.ForTest" />
-      <item index="14" class="java.lang.String" itemvalue="Google Test.SimpleTest.SystemInfoTest" />
-      <item index="15" class="java.lang.String" itemvalue="Google Test.SimpleTest.SystemInfoTestFromPractic" />
-      <item index="16" class="java.lang.String" itemvalue="Google Test.SystemInformationTests.GetTypeProcessorTest" />
-      <item index="17" class="java.lang.String" itemvalue="Google Test.SystemInformationTests.IsSupportSSE" />
-      <item index="18" class="java.lang.String" itemvalue="Google Test.Test.OmpTimerSort1" />
+      <item index="14" class="java.lang.String" itemvalue="Google Test.SqrtTests.CommonWithDouble" />
+      <item index="15" class="java.lang.String" itemvalue="Google Test.SqrtTests.SIMDSqrtDouble" />
+      <item index="16" class="java.lang.String" itemvalue="Google Test.SqrtTests.SIMDSqrtFloat" />
+      <item index="17" class="java.lang.String" itemvalue="Google Test.MoveTests.CommonMove" />
+      <item index="18" class="java.lang.String" itemvalue="Google Test.MoveTests.SIMDMove" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Google Test.Test.OmpTimerSort1" />
-        <item index="1" class="java.lang.String" itemvalue="Google Test.SystemInformationTests.IsSupportSSE" />
-        <item index="2" class="java.lang.String" itemvalue="Google Test.SystemInformationTests.GetTypeProcessorTest" />
-        <item index="3" class="java.lang.String" itemvalue="Google Test.SimpleTest.SystemInfoTestFromPractic" />
-        <item index="4" class="java.lang.String" itemvalue="Google Test.SimpleTest.SystemInfoTest" />
+        <item index="0" class="java.lang.String" itemvalue="Google Test.MoveTests.CommonMove" />
+        <item index="1" class="java.lang.String" itemvalue="Google Test.MoveTests.SIMDMove" />
+        <item index="2" class="java.lang.String" itemvalue="Google Test.SqrtTests.CommonWithDouble" />
+        <item index="3" class="java.lang.String" itemvalue="Google Test.SqrtTests.SIMDSqrtDouble" />
+        <item index="4" class="java.lang.String" itemvalue="Google Test.SqrtTests.SIMDSqrtFloat" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +424,17 @@
       <workItem from="1510220227940" duration="636000" />
       <workItem from="1510299538955" duration="2390000" />
       <workItem from="1510306432783" duration="101000" />
-      <workItem from="1510356399875" duration="798000" />
+      <workItem from="1510356399875" duration="1163000" />
+      <workItem from="1510393347731" duration="485000" />
+      <workItem from="1510435601639" duration="4342000" />
+      <workItem from="1510606289336" duration="4028000" />
+      <workItem from="1510650488921" duration="76000" />
+      <workItem from="1510650577863" duration="343000" />
+      <workItem from="1510696179029" duration="7819000" />
+      <workItem from="1510725118798" duration="1378000" />
+      <workItem from="1510740434197" duration="68000" />
+      <workItem from="1510741382561" duration="7000" />
+      <workItem from="1511084609232" duration="9789000" />
     </task>
     <task id="LOCAL-00001" summary="add google test framework and easylogging lib">
       <created>1507326408577</created>
@@ -527,54 +517,54 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_OmpTimerSort1 - 2017.11.10 at 10h 14m 39s.xml">
-      <configuration name="Test.OmpTimerSort1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="MoveTests_CommonMove - 2017.11.19 at 14h 21m 01s.xml">
+      <configuration name="MoveTests.CommonMove" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Test_OmpTimerSort1 - 2017.11.10 at 10h 15m 24s.xml">
-      <configuration name="Test.OmpTimerSort1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="MoveTests_CommonMove - 2017.11.19 at 14h 21m 06s.xml">
+      <configuration name="MoveTests.CommonMove" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Test_OmpTimerSort1 - 2017.11.10 at 10h 16m 57s.xml">
-      <configuration name="Test.OmpTimerSort1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="MoveTests_CommonMove - 2017.11.19 at 14h 22m 00s.xml">
+      <configuration name="MoveTests.CommonMove" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Test_OmpTimerSort1 - 2017.11.10 at 10h 18m 20s.xml">
-      <configuration name="Test.OmpTimerSort1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="MoveTests_CommonMove - 2017.11.19 at 14h 22m 34s.xml">
+      <configuration name="MoveTests.CommonMove" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Test_OmpTimerSort1 - 2017.11.11 at 01h 37m 27s.xml">
-      <configuration name="Test.OmpTimerSort1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="MoveTests_CommonMove - 2017.11.19 at 14h 22m 54s.xml">
+      <configuration name="MoveTests.CommonMove" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Test_OmpTimerSort1 - 2017.11.11 at 01h 38m 06s.xml">
-      <configuration name="Test.OmpTimerSort1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="MoveTests_CommonMove - 2017.11.19 at 14h 23m 11s.xml">
+      <configuration name="MoveTests.CommonMove" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Test_OmpTimerSort1 - 2017.11.11 at 01h 38m 42s.xml">
-      <configuration name="Test.OmpTimerSort1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="MoveTests_CommonMove - 2017.11.19 at 14h 36m 56s.xml">
+      <configuration name="MoveTests.CommonMove" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Test_OmpTimerSort1 - 2017.11.11 at 01h 39m 05s.xml">
-      <configuration name="Test.OmpTimerSort1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="MoveTests_CommonMove - 2017.11.19 at 15h 05m 15s.xml">
+      <configuration name="MoveTests.CommonMove" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Test_OmpTimerSort1 - 2017.11.11 at 01h 39m 26s.xml">
-      <configuration name="Test.OmpTimerSort1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="MoveTests_CommonMove - 2017.11.19 at 15h 05m 37s.xml">
+      <configuration name="MoveTests.CommonMove" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Test_OmpTimerSort1 - 2017.11.11 at 01h 39m 41s.xml">
-      <configuration name="Test.OmpTimerSort1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="MoveTests_CommonMove - 2017.11.19 at 15h 12m 53s.xml">
+      <configuration name="MoveTests.CommonMove" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107429000" />
+    <option name="totallyTimeSpent" value="136129000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="141" y="7" width="3700" height="2154" extended-state="6" />
+    <frame x="280" y="391" width="3700" height="2154" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34127423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3839335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3104" sideWeight="0.48116344" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3104" sideWeight="0.39473686" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2768" sideWeight="0.49889198" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37866667" sideWeight="0.5177285" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37866667" sideWeight="0.48227146" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37866667" sideWeight="0.366482" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37866667" sideWeight="0.633518" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23893334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31146666" sideWeight="0.49778393" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23893334" sideWeight="0.49889198" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46986666" sideWeight="0.49445984" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -618,52 +608,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="30" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="CMakeGoogleTestRunConfigurationType">
-        <watch expression="result[1]" language="ObjectiveC" />
-        <watch expression="second[1]" language="ObjectiveC" />
-        <watch expression="(*this)[1]" language="ObjectiveC" />
-        <watch expression="second[2]" language="ObjectiveC" />
-        <watch expression="(*this)[2]" language="ObjectiveC" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/Algorithm.cpp" />
-    <entry file="file://$PROJECT_DIR$/lib/logging/easylogging++.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/googletest/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3338">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/googletest/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/logging.cpp" />
-    <entry file="file://$PROJECT_DIR$/lib/logging/easylogging++.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132704">
-          <caret line="4576" column="10" lean-forward="false" selection-start-line="4576" selection-start-column="10" selection-end-line="4576" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/5/bits/shared_ptr_base.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2291">
@@ -724,13 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/stdint.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -820,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156320">
-          <caret line="4885" column="0" lean-forward="false" selection-start-line="4885" selection-start-column="0" selection-end-line="4885" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/boost/algorithm/string/detail/finder.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18464">
@@ -865,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,25 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#91#112#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,9 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -909,7 +821,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/avx512fintrin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26996">
+          <caret line="794" column="0" lean-forward="false" selection-start-line="794" selection-start-column="0" selection-end-line="794" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/avx2intrin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4012">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -923,6 +862,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/stdint.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34952">
+          <caret line="1028" column="0" lean-forward="false" selection-start-line="1028" selection-start-column="0" selection-end-line="1028" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1051">
+          <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/xopintrin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="289" column="0" lean-forward="false" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+          <folding>
+            <marker date="1505339210000" expanded="false" signature="8459:9265" ph="..." />
+            <marker date="1505339210000" expanded="false" signature="26487:27623" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/CustomArray.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -931,23 +902,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/c++/5/iostream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/CustomArray.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="-1">
+          <caret line="139" column="22" lean-forward="true" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
           <folding>
             <element signature="e#104#122#0" expanded="true" />
-            <element signature="e#168#180#0" expanded="true" />
+            <element signature="e#224#236#0" expanded="true" />
+            <element signature="e#882#894#0" expanded="true" />
+            <element signature="e#2567#2579#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/SortTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="505">
+          <caret line="160" column="21" lean-forward="false" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
           <folding>
-            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#41#72#0" expanded="true" />
+            <element signature="e#305#329#0" expanded="true" />
+            <element signature="e#1441#1453#0" expanded="true" />
+            <element signature="e#2722#2734#0" expanded="true" />
+            <element signature="e#2933#2945#0" expanded="true" />
           </folding>
         </state>
       </provider>
