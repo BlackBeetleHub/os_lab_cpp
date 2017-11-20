@@ -117,5 +117,5 @@ bool SystemInfo::isSupportSSE() {
 }
 
 unsigned SystemInfo::getCountProcessors() {
-    return (infoCPU.ebx >> 16) & 0xff;
+    return ((infoCPU.ecx >> 26) & 0x3f) + 1;
 }
