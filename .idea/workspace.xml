@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574c96da-7ebd-4abd-acd0-e57654649799" name="Default" comment="Add class Polynom and add multiply polynoms">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/Thread.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/Thread.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithms/SortTests.cpp" afterPath="$PROJECT_DIR$/src/algorithms/SortTests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/SystemInfo.cpp" afterPath="$PROJECT_DIR$/src/utils/SystemInfo.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/SystemTests.cpp" afterPath="$PROJECT_DIR$/src/utils/SystemTests.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -44,30 +40,18 @@
       <file leaf-file-name="SortTests.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/SortTests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-              <folding>
-                <element signature="e#41#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Thread.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/Thread.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="96" column="9" lean-forward="false" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/Thread.h">
+      <file leaf-file-name="ChronoTimer.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/timers/ChronoTimer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="748">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,9 +60,11 @@
       <file leaf-file-name="SystemTests.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/SystemTests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="782">
+              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="e#41#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +112,8 @@
       <file leaf-file-name="SystemInfo.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/SystemInfo.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3842">
-              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="3366">
+              <caret line="99" column="44" lean-forward="false" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
               <folding>
                 <element signature="e#41#59#0" expanded="true" />
               </folding>
@@ -138,8 +124,8 @@
       <file leaf-file-name="CustomArray.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/CustomArray.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4726">
-              <caret line="139" column="22" lean-forward="false" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+            <state relative-caret-position="5134">
+              <caret line="151" column="8" lean-forward="false" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
               <folding>
                 <element signature="e#104#122#0" expanded="true" />
                 <element signature="e#224#236#0" expanded="true" />
@@ -324,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.GetPITests.CommonMultipleGetPIVallicy">
+  <component name="RunManager" selected="Google Test.GetPITests.TestPthres">
     <configuration name="All in VeriableTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="MultiplePolyTest" TEST_METHOD="SimpleVersion" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
@@ -335,6 +321,9 @@
       <envs />
     </configuration>
     <configuration name="GetPITests.CommonMultipleGetPIVallicy" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="GetPITests" TEST_METHOD="CommonMultipleGetPIVallicy" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="GetPITests.ParallelOmpGeyPiLeybnic" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="GetPITests" TEST_METHOD="ParallelOmpGeyPiLeybnic" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
     <configuration name="GetPITests.TestPthres" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="GetPITests" TEST_METHOD="TestPthres" TEST_MODE="SUITE_TEST">
@@ -353,9 +342,6 @@
       <envs />
     </configuration>
     <configuration name="Testa.OmpTimerSorta5" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="Testa" TEST_METHOD="OmpTimerSorta5" TEST_MODE="SUITE_TEST">
-      <envs />
-    </configuration>
-    <configuration name="Testa.OmpTimerSorta6" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="test_lab_os_1" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="test_lab_os_1" TEST_CLASS="Testa" TEST_METHOD="OmpTimerSorta6" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
     <configuration name="VeriableTest.ForTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_os_1" TARGET_NAME="lab_os_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_os_1" RUN_TARGET_NAME="lab_os_1" TEST_CLASS="VeriableTest" TEST_METHOD="ForTest" TEST_MODE="SUITE_TEST">
@@ -398,18 +384,18 @@
       <item index="12" class="java.lang.String" itemvalue="Google Test.MultiplePolyTestFaster" />
       <item index="13" class="java.lang.String" itemvalue="Google Test.VeriableTest.ForTest" />
       <item index="14" class="java.lang.String" itemvalue="Google Test.Testa.OmpTimerSorta5" />
-      <item index="15" class="java.lang.String" itemvalue="Google Test.Testa.OmpTimerSorta6" />
-      <item index="16" class="java.lang.String" itemvalue="Google Test.GetPITests.TestPthres" />
-      <item index="17" class="java.lang.String" itemvalue="Google Test.GetPITests.CommonAdditionGetPILeybnic" />
-      <item index="18" class="java.lang.String" itemvalue="Google Test.GetPITests.CommonMultipleGetPIVallicy" />
+      <item index="15" class="java.lang.String" itemvalue="Google Test.GetPITests.TestPthres" />
+      <item index="16" class="java.lang.String" itemvalue="Google Test.GetPITests.CommonAdditionGetPILeybnic" />
+      <item index="17" class="java.lang.String" itemvalue="Google Test.GetPITests.CommonMultipleGetPIVallicy" />
+      <item index="18" class="java.lang.String" itemvalue="Google Test.GetPITests.ParallelOmpGeyPiLeybnic" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Google Test.GetPITests.CommonMultipleGetPIVallicy" />
-        <item index="1" class="java.lang.String" itemvalue="Google Test.GetPITests.CommonAdditionGetPILeybnic" />
-        <item index="2" class="java.lang.String" itemvalue="Google Test.GetPITests.TestPthres" />
-        <item index="3" class="java.lang.String" itemvalue="Google Test.Testa.OmpTimerSorta5" />
-        <item index="4" class="java.lang.String" itemvalue="Google Test.Testa.OmpTimerSorta6" />
+        <item index="0" class="java.lang.String" itemvalue="Google Test.GetPITests.TestPthres" />
+        <item index="1" class="java.lang.String" itemvalue="Google Test.GetPITests.ParallelOmpGeyPiLeybnic" />
+        <item index="2" class="java.lang.String" itemvalue="Google Test.GetPITests.CommonAdditionGetPILeybnic" />
+        <item index="3" class="java.lang.String" itemvalue="Google Test.GetPITests.CommonMultipleGetPIVallicy" />
+        <item index="4" class="java.lang.String" itemvalue="Google Test.Testa.OmpTimerSorta5" />
       </list>
     </recent_temporary>
   </component>
@@ -464,6 +450,8 @@
       <workItem from="1511084609232" duration="19863000" />
       <workItem from="1511119633291" duration="9222000" />
       <workItem from="1511158718992" duration="119000" />
+      <workItem from="1511167289646" duration="31000" />
+      <workItem from="1511777128937" duration="198000" />
     </task>
     <task id="LOCAL-00001" summary="add google test framework and easylogging lib">
       <created>1507326408577</created>
@@ -546,20 +534,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetPITests_CommonAdditionGetPILeybnic - 2017.11.20 at 08h 19m 51s.xml">
+    <history-entry file="GetPITests_CommonAdditionGetPILeybnic - 2017.11.20 at 08h 42m 53s.xml">
       <configuration name="GetPITests.CommonAdditionGetPILeybnic" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="GetPITests_CommonAdditionGetPILeybnic - 2017.11.20 at 08h 19m 57s.xml">
-      <configuration name="GetPITests.CommonAdditionGetPILeybnic" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="GetPITests_CommonAdditionGetPILeybnic - 2017.11.20 at 08h 20m 05s.xml">
-      <configuration name="GetPITests.CommonAdditionGetPILeybnic" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="GetPITests_CommonMultipleGetPIVallicy - 2017.11.20 at 08h 20m 26s.xml">
+    <history-entry file="GetPITests_CommonMultipleGetPIVallicy - 2017.11.20 at 08h 40m 29s.xml">
       <configuration name="GetPITests.CommonMultipleGetPIVallicy" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="GetPITests_TestPthres - 2017.11.20 at 02h 19m 22s.xml">
-      <configuration name="GetPITests.TestPthres" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="GetPITests_ParallelOmpGeyPiLeybnic - 2017.11.20 at 08h 41m 38s.xml">
+      <configuration name="GetPITests.ParallelOmpGeyPiLeybnic" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="GetPITests_ParallelOmpGeyPiLeybnic - 2017.11.20 at 08h 43m 10s.xml">
+      <configuration name="GetPITests.ParallelOmpGeyPiLeybnic" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
     <history-entry file="GetPITests_TestPthres - 2017.11.20 at 02h 19m 51s.xml">
       <configuration name="GetPITests.TestPthres" configurationId="CMakeGoogleTestRunConfigurationType" />
@@ -576,9 +561,12 @@
     <history-entry file="GetPITests_TestPthres - 2017.11.20 at 02h 40m 46s.xml">
       <configuration name="GetPITests.TestPthres" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="GetPITests_TestPthres - 2017.11.20 at 08h 43m 22s.xml">
+      <configuration name="GetPITests.TestPthres" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155544000" />
+    <option name="totallyTimeSpent" value="156281000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -593,19 +581,19 @@
     <frame x="142" y="-7" width="3700" height="2154" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2268698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23213297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.49889198" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30986667" sideWeight="0.28864264" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2768" sideWeight="0.49556786" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37866667" sideWeight="0.19584487" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5504" sideWeight="0.19584487" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37866667" sideWeight="0.8041551" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37866667" sideWeight="0.8041551" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1776" sideWeight="0.49556786" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46986666" sideWeight="0.49224377" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30986667" sideWeight="0.28864264" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -748,8 +736,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/timers/ChronoTimer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
+        <state relative-caret-position="748">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -904,8 +893,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/CustomArray.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4726">
-          <caret line="139" column="22" lean-forward="false" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+        <state relative-caret-position="5134">
+          <caret line="151" column="8" lean-forward="false" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
           <folding>
             <element signature="e#104#122#0" expanded="true" />
             <element signature="e#224#236#0" expanded="true" />
@@ -941,8 +930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/SystemInfo.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3842">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="3366">
+          <caret line="99" column="44" lean-forward="false" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
           <folding>
             <element signature="e#41#59#0" expanded="true" />
           </folding>
@@ -951,9 +940,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/SystemTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="782">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -961,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,17 +959,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="16" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/SortTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding>
-            <element signature="e#41#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="96" column="9" lean-forward="false" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

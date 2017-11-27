@@ -50,7 +50,7 @@ TEST(GetPITests, CommonMultipleGetPIVallicy) {
 }
 
 TEST(GetPITests, CommonAdditionGetPILeybnic) {
-    double number = getPILeybnic(100000000);
+    double number = getPILeybnic(100000000000);
     int w = 1, p = 19; // width and scale
     printf("%0*.*f\n", w, p, number);
 }
