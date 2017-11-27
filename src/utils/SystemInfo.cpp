@@ -15,10 +15,10 @@ SystemInfo::SystemInfo() {
 }
 
 std::string SystemInfo::GetProcessorTypeName() {
-    auto* str = new char[13];
+    auto *str = new char[13];
     str[12] = '\0';
     memcpy(str, &infoName.ebx, 4);
-    memcpy(str + 4,&infoName.edx, 4);
+    memcpy(str + 4, &infoName.edx, 4);
     memcpy(str + 8, &infoName.ecx, 4);
     return std::string(str);
 }
@@ -91,28 +91,17 @@ std::string SystemInfo::GetProcessorTypeName() {
 
  */
 bool SystemInfo::isSupportSSE() {
-    unsigned arr[4];
-    auto* str = new char[13];
-    std::cout<< (1 << 1) << std::endl;
-    __get_cpuid(1, &arr[0], &arr[1], &arr[2], &arr[3]);
-    __get_cpuid(1, &arr[0], &arr[1], &arr[2], &arr[3]);
     // about sse, sse2, sse4.1, sse4.2
     // warning: I have not sse5 and sse4a :(
-    std::cout<< ((arr[3] & (1 << 25)) == (1 << 25)) << std::endl; // sse
-    std::cout<< ((arr[3] & (1 << 26)) == (1 << 26)) << std::endl; // sse2
-    std::cout<< ((arr[2] & (1 << 19)) == (1 << 19)) << std::endl; // sse4.1
-    std::cout<< ((arr[2] & (1 << 20)) == (1 << 20)) << std::endl; // sse4.2
+    std::cout << ((infoCPU.edx & (1 << 25)) == (1 << 25)) << std::endl; // sse
+    std::cout << ((infoCPU.edx & (1 << 26)) == (1 << 26)) << std::endl; // sse2
+    std::cout << ((infoCPU.ecx & (1 << 19)) == (1 << 19)) << std::endl; // sse4.1
+    std::cout << ((infoCPU.ecx & (1 << 20)) == (1 << 20)) << std::endl; // sse4.2
 
+    std::cout << ((infoCPU.edx & (1 << 0)) == (1 << 0)) << std::endl; // sse3
+    std::cout << ((infoCPU.edx & (1 << 9)) == (1 << 9)) << std::endl; // ssse3
+    std::cout << ((infoCPU.ecx & (1 << 27)) == (1 << 27)) << std::endl; //AVX
 
-
-    std::cout<< ((arr[3] & (1 << 0)) == (1 << 0)) << std::endl; // sse3
-    std::cout<< ((arr[3] & (1 << 9)) == (1 << 9)) << std::endl; // ssse3
-
-    std::cout << ((arr[2] & (1 << 27)) == (1 << 27)) << std::endl; //AVX
-    //
-
-
-    //std::cout<< (arr[2] & 1 << 0) << std::endl;
     return true;
 }
 
