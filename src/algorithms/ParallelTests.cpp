@@ -4,9 +4,7 @@
 
 #include "timers/CommonTimer.h"
 #include "timers/ChronoTimer.h"
-#include "timers/OmpTimer.h"
 #include "CustomArray.h"
-#include <pthread.h>
 
 #include <gtest/gtest.h>
 
